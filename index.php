@@ -85,7 +85,7 @@ if (session()) {
 				->where('uyeAdi', $uyeAdi)
 				->where('sifre', $sifre)
 				->first();
-				print_r($bul);
+				//print_r($bul);
 				   
 				if ( $bul ){
 					$_SESSION["oturum"] = true;
